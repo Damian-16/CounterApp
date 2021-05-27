@@ -24,10 +24,20 @@ export const styles = StyleSheet.create({
      right:25,
 
     },
+    fabLocation:{
+        position:'absolute',
+        bottom:25,
+    },
     fabLocationBL:{
         position:'absolute',
         bottom:25,
         left:25,
+    },
+    right:{
+        right:25
+    },
+    left:{
+        left:25
     },
    
    fab:{
@@ -36,6 +46,14 @@ export const styles = StyleSheet.create({
        height:60,
        borderRadius:100,
        justifyContent:'center',
+       shadowColor:"#000",
+       shadowOffset:{
+           width:0,
+           height:4,
+       },
+       shadowOpacity:0.30,
+       shadowRadius:4.65,
+       elevation:8,
    },
    fabText:{
        color:'white',
