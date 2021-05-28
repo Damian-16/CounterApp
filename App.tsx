@@ -7,16 +7,21 @@ import { SafeAreaView, SafeAreaViewBase } from 'react-native';
 import { DimensionesScreen } from './src/screens/DimensionesScreen';
 import { PositionScreen } from './src/screens/PositionScreen';
 import { FlexScreen } from './src/screens/FlexScreen';
+import { TareaScreen } from './src/screens/TareaScreen';
 
 const App = () => {
   return (
-    <SafeAreaView style={{flex:1}}>
+    <SafeAreaView style={{
+      flex:1,
+      backgroundColor:'#28425B'
+      }}>
   {/* //  <HolaMundoScreen/>
   // <CounterScreen/> */}
   {/* <BoxObjectModelScreen/> */}
   {/* <DimensionesScreen/> */}
   {/* <PositionScreen/> */}
-  <FlexScreen/>
+  {/* <FlexScreen/> */}
+  <TareaScreen/>
   </SafeAreaView>
   ) 
 }
