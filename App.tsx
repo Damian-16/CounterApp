@@ -5,14 +5,18 @@ import { HolaMundoScreen } from './src/screens/HolaMundoScreen';
 import { BoxObjectModelScreen } from './src/screens/BoxObjectModelScreen';
 import { SafeAreaView, SafeAreaViewBase } from 'react-native';
 import { DimensionesScreen } from './src/screens/DimensionesScreen';
+import { PositionScreen } from './src/screens/PositionScreen';
+import { FlexScreen } from './src/screens/FlexScreen';
 
 const App = () => {
   return (
-    <SafeAreaView>
+    <SafeAreaView style={{flex:1}}>
   {/* //  <HolaMundoScreen/>
   // <CounterScreen/> */}
   {/* <BoxObjectModelScreen/> */}
-  <DimensionesScreen/>
+  {/* <DimensionesScreen/> */}
+  {/* <PositionScreen/> */}
+  <FlexScreen/>
   </SafeAreaView>
   ) 
 }
